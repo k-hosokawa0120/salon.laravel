@@ -18,6 +18,10 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+Route::get('/header', function () {
+    return view('header');
+});
+
 Route::get('/', function () {
     return view('news');
 });

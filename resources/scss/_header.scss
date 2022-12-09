@@ -1,0 +1,241 @@
+.header {
+  padding: 20px;
+  &__wrap {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  &__title {
+    position: absolute;
+    content: '';
+    left: 15px;
+    top: 20px;
+  }
+
+  &__title-link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  &__title-text {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__nav-list {
+    display: flex;
+    @media screen and (max-width: 650px) {
+      display: none;
+    }
+  }
+
+  &__nav-items {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  &__nav-items:last-child {
+    margin-right: 0;
+  }
+  
+  &__nav-link {
+    text-decoration: none;
+    color: #000;
+    padding: 20px 20px 15px;
+    z-index: 10;
+  }
+  
+  &__nav-link:hover {
+    border-bottom: 1px solid #000;
+    padding-bottom: 14px;
+  }
+  
+  &__nav-name {
+    font-size: 14px;
+  }
+  
+  &__nav-hamburger {
+    display: none;
+    @media screen and (max-width: 650px) {
+      z-index: 1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      display: block;
+      background: rgb(244, 255, 255);
+      transition: all .2s ease-in-out;
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+  }
+
+  &__nav-hamburger-list {
+    @media screen and (max-width: 650px) {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+  }
+
+  &__nav-hamburger-items {
+    @media screen and (max-width: 650px) {
+      padding: 20px;
+    }
+  }
+
+  &__nav-hamburger-link {
+    @media screen and (max-width: 650px) {
+      text-decoration: none;
+      display: block;
+    }
+  }
+
+  &__nav-hamburger-name {
+    @media screen and (max-width: 650px) {
+      display: block;
+      font-size: 15px;
+      color: #000;
+    }
+  }
+
+  &__nav-hamburger-close {
+    @media screen and (max-width: 650px) {
+      position: relative;
+      margin-top: 10px;
+      padding: 20px;
+    }
+  }
+
+  &__nav-hamburger-close::before {
+    @media screen and (max-width: 650px) {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      display: block;
+      width: 16px;
+      height: 1px;
+      background: #000;
+      transform: rotate( 45deg );
+    }
+  }
+
+  &__nav-hamburger-close::after {
+    @media screen and (max-width: 650px) {  
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      display: block;
+      width: 16px;
+      height: 1px;
+      background: #000;
+      transform: rotate( -45deg );
+    }
+  }
+
+  &__nav-hamburger-items-sns {
+    @media screen and (max-width: 650px) {  
+      display: flex;
+      gap: 15px;
+    }
+  }
+
+  &__nav-hamburger-items-sns-link {
+    @media screen and (max-width: 650px) {  
+      text-decoration: none;
+    }
+  }
+
+  &__nav-hamburger-phone {
+    @media screen and (max-width: 650px) {  
+      display: flex;
+      border: 1px solid #000;
+      border-radius: 10px;
+      position: relative;
+    }
+  }
+
+  &__nav-hamburger-phone-text {
+    @media screen and (max-width: 650px) {  
+      padding: 10px 15px 10px 35px;
+    }
+  }
+
+  &__nav-hamburger-phone-text::before  {
+    @media screen and (max-width: 650px) {  
+      content: '';
+      position: absolute;
+      top: calc(50% - 8px);
+      left: 15px;
+      width: 16px;
+      height: 16px;
+      background: url('../images/phone.png') no-repeat center/cover;
+    }
+  }
+
+  &__hamburger {
+    @media screen and (max-width: 650px) {
+      position: relative;
+      display: block;
+      width: 30px;
+      height: 25px;
+    }
+  }
+
+  &__hamburger::before {
+    @media screen and (max-width: 650px) {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #000;
+    }
+  }
+
+  &__hamburger::after {
+    @media screen and (max-width: 650px) {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #000;
+    }
+  }
+
+  &__hamburger-line {
+    @media screen and (max-width: 650px) {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #000;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.toggle {
+  @media screen and (max-width: 650px) {  
+    transform: translateY( 0 );
+    opacity: 1;
+  }
+}

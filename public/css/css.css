@@ -1,0 +1,41 @@
+.section__title-wrap {
+  padding: 60px 20px 30px;
+}
+.section__title {
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.section__title::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: 0;
+  background: url("../images/hasami.png") no-repeat;
+  background-size: 100%;
+  width: 28px;
+  height: 28px;
+}
+
+.news {
+  padding: 20px;
+}
+.news__item {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #666666;
+}
+.news__item:first-child {
+  border-top: 1px solid #666666;
+}
+.news__term {
+  width: 120px;
+  font-size: 10px;
+  letter-spacing: 1.2;
+}
+.news__data {
+  font-size: 10px;
+  letter-spacing: 1.2;
+}/*# sourceMappingURL=css.css.map */

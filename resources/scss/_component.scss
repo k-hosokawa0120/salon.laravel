@@ -1,0 +1,25 @@
+// section
+
+.section {
+    &__title-wrap {
+      padding: 60px 20px 30px;
+    }
+
+    &__title {
+      position: relative;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+
+    &__title::before {
+      content: '';
+      position: absolute;
+      top: -60px;
+      left: 0;
+      background: url('../images/hasami.png') no-repeat;
+      background-size: 100%;
+      width: 28px;
+      height: 28px;
+    }
+}

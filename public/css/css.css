@@ -1,5 +1,5 @@
 .section__title-wrap {
-  padding: 60px 20px 30px;
+  padding: 40px 20px 30px;
 }
 .section__title {
   position: relative;
@@ -10,12 +10,22 @@
 .section__title::before {
   content: "";
   position: absolute;
-  top: -60px;
-  left: 0;
+  top: -13px;
+  left: 85px;
   background: url("../images/hasami.png") no-repeat;
   background-size: 100%;
   width: 28px;
   height: 28px;
+  transform: rotate(130deg);
+  z-index: 1;
+}
+.section__title::after {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  left: 80px;
+  border: 1px dashed #636466;
+  width: 30%;
 }
 
 .news {
@@ -33,9 +43,10 @@
 .news__term {
   width: 120px;
   font-size: 10px;
-  letter-spacing: 1.2;
+  letter-spacing: 1px;
 }
 .news__data {
   font-size: 10px;
-  letter-spacing: 1.2;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=css.css.map */

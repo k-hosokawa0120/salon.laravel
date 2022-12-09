@@ -1,25 +1,35 @@
 // section
-
 .section {
-    &__title-wrap {
-      padding: 60px 20px 30px;
-    }
+  &__title-wrap {
+    padding: 40px 20px 30px;
+  }
 
-    &__title {
-      position: relative;
-      font-size: 15px;
-      font-weight: 600;
-      letter-spacing: 2px;
-    }
+  &__title {
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
 
-    &__title::before {
-      content: '';
-      position: absolute;
-      top: -60px;
-      left: 0;
-      background: url('../images/hasami.png') no-repeat;
-      background-size: 100%;
-      width: 28px;
-      height: 28px;
-    }
+  &__title::before {
+    content: '';
+    position: absolute;
+    top: -13px;
+    left: 85px;
+    background: url('../images/hasami.png') no-repeat;
+    background-size: 100%;
+    width: 28px;
+    height: 28px;
+    transform: rotate( 130deg );
+    z-index: 1;
+  }
+
+  &__title::after {
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: 80px;
+    border: 1px dashed #636466;
+    width: 30%;
+  }
 }

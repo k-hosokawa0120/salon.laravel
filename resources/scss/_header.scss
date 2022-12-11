@@ -27,7 +27,7 @@
 
   &__nav-list {
     display: flex;
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       display: none;
     }
   }
@@ -61,7 +61,7 @@
   
   &__nav-hamburger {
     display: none;
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       z-index: 1;
       position: fixed;
       top: 0;
@@ -77,7 +77,7 @@
   }
 
   &__nav-hamburger-list {
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       padding: 0;
       display: flex;
       flex-direction: column;
@@ -88,20 +88,20 @@
   }
 
   &__nav-hamburger-items {
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       padding: 20px;
     }
   }
 
   &__nav-hamburger-link {
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       text-decoration: none;
       display: block;
     }
   }
 
   &__nav-hamburger-name {
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       display: block;
       font-size: 15px;
       color: #000;
@@ -109,7 +109,7 @@
   }
 
   &__nav-hamburger-close {
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       position: relative;
       margin-top: 10px;
       padding: 20px;
@@ -117,7 +117,7 @@
   }
 
   &__nav-hamburger-close::before {
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       content: '';
       position: absolute;
       top: 50%;
@@ -131,7 +131,7 @@
   }
 
   &__nav-hamburger-close::after {
-    @media screen and (max-width: 650px) {  
+    @media screen and (max-width: 690px) {  
       content: '';
       position: absolute;
       top: 50%;
@@ -145,20 +145,20 @@
   }
 
   &__nav-hamburger-items-sns {
-    @media screen and (max-width: 650px) {  
+    @media screen and (max-width: 690px) {  
       display: flex;
       gap: 15px;
     }
   }
 
   &__nav-hamburger-items-sns-link {
-    @media screen and (max-width: 650px) {  
+    @media screen and (max-width: 690px) {  
       text-decoration: none;
     }
   }
 
   &__nav-hamburger-phone {
-    @media screen and (max-width: 650px) {  
+    @media screen and (max-width: 690px) {  
       display: flex;
       border: 1px solid #000;
       border-radius: 10px;
@@ -167,13 +167,13 @@
   }
 
   &__nav-hamburger-phone-text {
-    @media screen and (max-width: 650px) {  
+    @media screen and (max-width: 690px) {  
       padding: 10px 15px 10px 35px;
     }
   }
 
   &__nav-hamburger-phone-text::before  {
-    @media screen and (max-width: 650px) {  
+    @media screen and (max-width: 690px) {  
       content: '';
       position: absolute;
       top: calc(50% - 8px);
@@ -185,7 +185,7 @@
   }
 
   &__hamburger {
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       position: relative;
       display: block;
       width: 30px;
@@ -194,7 +194,7 @@
   }
 
   &__hamburger::before {
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       content: '';
       display: block;
       position: absolute;
@@ -207,7 +207,7 @@
   }
 
   &__hamburger::after {
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       content: '';
       display: block;
       position: absolute;
@@ -220,7 +220,7 @@
   }
 
   &__hamburger-line {
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 690px) {
       position: absolute;
       top: 50%;
       left: 0;
@@ -234,7 +234,7 @@
 }
 
 .toggle {
-  @media screen and (max-width: 650px) {  
+  @media screen and (max-width: 690px) {  
     transform: translateY( 0 );
     opacity: 1;
   }

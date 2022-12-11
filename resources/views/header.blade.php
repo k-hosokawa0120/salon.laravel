@@ -22,32 +22,27 @@
           <ul class="header__nav-list">
             <li class="header__nav-items">
               <a href="" class="header__nav-link">
-                <span class=""></span>
                 <span class="header__nav-name">HOME</span>
               </a>
             </li>
             <li class="header__nav-items">
               <a href="" class="header__nav-link">
-                <span class=""></span>
                 <span class="header__nav-name">MENU</span>
               </a>
             </li>
             <li class="header__nav-items">
               <a href="" class="header__nav-link">
-                <span class=""></span>
                 <span class="header__nav-name">NEWS</span>
               </a>
             </li>
             <li class="header__nav-items">
               <a href="" class="header__nav-link">
-                <span class=""></span>
                 <span class="header__nav-name">COUPON</span>
               </a>
             </li>
             <li class="header__nav-items">
               <a href="" class="header__nav-link">
-                <span class=""></span>
-                <span class="header__nav-name">RESERVE</span>
+                <span class="header__nav-name">INFORMATION</span>
               </a>
             </li>
           </ul>
@@ -56,32 +51,27 @@
           <ul class="header__nav-hamburger-list">
             <li class="header__nav-hamburger-items">
               <a href="" class="header__nav-hamburger-link">
-                <span class=""></span>
                 <span class="header__nav-hamburger-name">HOME</span>
               </a>
             </li>
             <li class="header__nav-hamburger-items">
               <a href="" class="header__nav-hamburger-link">
-                <span class=""></span>
                 <span class="header__nav-hamburger-name">MENU</span>
               </a>
             </li>
             <li class="header__nav-hamburger-items">
               <a href="" class="header__nav-hamburger-link">
-                <span class=""></span>
                 <span class="header__nav-hamburger-name">NEWS</span>
               </a>
             </li>
             <li class="header__nav-hamburger-items">
               <a href="" class="header__nav-hamburger-link">
-                <span class=""></span>
                 <span class="header__nav-hamburger-name">COUPON</span>
               </a>
             </li>
             <li class="header__nav-hamburger-items">
               <a href="" class="header__nav-hamburger-link">
-                <span class=""></span>
-                <span class="header__nav-hamburger-name">RESERVE</span>
+                <span class="header__nav-hamburger-name">INFORMATION</span>
               </a>
             </li>
             <li class="header__nav-hamburger-items">

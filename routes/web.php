@@ -22,6 +22,14 @@ Route::get('/header', function () {
     return view('header');
 });
 
+Route::get('/footer', function () {
+    return view('footer');
+});
+
+Route::get('/menu', function () {
+    return view('menu');
+});
+
 Route::get('/', function () {
     return view('news');
 });

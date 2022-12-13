@@ -18,6 +18,22 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+Route::get('/header', function () {
+    return view('header');
+});
+
+Route::get('/footer', function () {
+    return view('footer');
+});
+
+Route::get('/menu', function () {
+    return view('menu');
+});
+
+Route::get('/information', function () {
+    return view('information');
+});
+
 Route::get('/', function () {
     return view('news');
 });

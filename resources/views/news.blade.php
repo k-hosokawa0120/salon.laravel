@@ -23,6 +23,9 @@
         <dd class="news__data">WEB限定価格のお知らせ</dd>
       </div>
     </dl>
+    <a href="" class="news__link">
+      <div class="news__more">MORE</div>
+    </a>
   </section>
 </body>
 </html>

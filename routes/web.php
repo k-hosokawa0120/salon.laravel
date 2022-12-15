@@ -34,6 +34,10 @@ Route::get('/information', function () {
     return view('information');
 });
 
+Route::get('/coupon', function () {
+    return view('coupon');
+});
+
 Route::get('/', function () {
     return view('news');
 });

@@ -27,6 +27,11 @@
             </li>
             <li class="header__nav-items">
               <a href="" class="header__nav-link">
+                <span class="header__nav-name">SALON</span>
+              </a>
+            </li>
+            <li class="header__nav-items">
+              <a href="" class="header__nav-link">
                 <span class="header__nav-name">MENU</span>
               </a>
             </li>

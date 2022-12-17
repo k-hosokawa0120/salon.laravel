@@ -733,6 +733,11 @@
 .salon__body:first-child {
   margin-top: 30px;
 }
+@media screen and (max-width: 760px) {
+  .salon__body {
+    margin-top: 150px;
+  }
+}
 .salon__wrap {
   text-align: center;
 }
@@ -748,6 +753,11 @@
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 760px) {
+  .salon__staff {
+    flex-direction: column;
+  }
+}
 .salon__staff-media {
   overflow: hidden;
   border-radius: 10px;
@@ -755,6 +765,11 @@
 }
 .salon__staff-summary {
   text-align: left;
+}
+@media screen and (max-width: 760px) {
+  .salon__staff-summary {
+    text-align: center;
+  }
 }
 .salon__staff-title {
   margin-top: 10px;
@@ -774,11 +789,15 @@
   margin-top: 40px;
   width: 100%;
 }
+.salon__staff-image {
+  width: 100%;
+}
 .salon__room-summary {
   text-align: center;
 }
 .salon__room-text {
   margin-top: 80px;
+  font-size: 12px;
 }
 
 .modal__container {

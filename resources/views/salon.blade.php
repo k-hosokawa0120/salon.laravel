@@ -56,7 +56,6 @@
               <div class="salon__room-media">
                 <img src="images/hear1.jpg" class="salon__staff-image" loading="lazy" alt="">
               </div>
-  
             </div>
           </div>
         </div>

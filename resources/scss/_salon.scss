@@ -40,6 +40,9 @@
     &:first-child {
       margin-top: 30px;
     }
+    @media screen and (max-width: 760px) {
+      margin-top: 150px;      
+    }
   }
 
   &__wrap {
@@ -58,6 +61,9 @@
     margin-top: 80px;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 760px) {
+      flex-direction: column;      
+    }
   }
 
   &__staff-media {
@@ -68,6 +74,9 @@
 
   &__staff-summary {
     text-align: left;
+    @media screen and (max-width: 760px) {
+      text-align: center;     
+    }
   }
 
   &__staff-title {
@@ -91,11 +100,16 @@
     width: 100%;
   }
 
+  &__staff-image {
+    width: 100%;
+  }
+
   &__room-summary {
     text-align: center;
   }
 
   &__room-text {
     margin-top: 80px;
+    font-size: 12px;
   }
 }

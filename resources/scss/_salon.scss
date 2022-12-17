@@ -1,0 +1,101 @@
+.salon {
+  &__top {
+    background: url('../images/menu_top.jpg') no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    &::before {
+      background-color: rgba(99, 100, 102, 0.4);
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 5;
+    }
+  }
+  
+  &__top-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    z-index: 10;
+  }
+
+  &__block {
+    padding: 20px 40px;
+    color: #646366;
+  }
+
+  &__body {
+    margin-top: 200px;
+    &:first-child {
+      margin-top: 30px;
+    }
+  }
+
+  &__wrap {
+    text-align: center;
+  }
+
+  &__head {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 1px solid #646366;
+  }
+
+  &__staff {
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__staff-media {
+    overflow: hidden;
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+
+  &__staff-summary {
+    text-align: left;
+  }
+
+  &__staff-title {
+    margin-top: 10px;
+    &:first-child {
+      margin-top: 0;
+    }
+    &.--bold {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  &__staff-text {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  &__room-media {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  &__room-summary {
+    text-align: center;
+  }
+
+  &__room-text {
+    margin-top: 80px;
+  }
+}

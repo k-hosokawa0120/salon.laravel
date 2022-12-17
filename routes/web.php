@@ -30,6 +30,10 @@ Route::get('/menu', function () {
     return view('menu');
 });
 
+Route::get('/salon', function () {
+    return view('salon');
+});
+
 Route::get('/information', function () {
     return view('information');
 });

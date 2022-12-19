@@ -15,11 +15,11 @@
     </div>
     <dl class="news__list">
       <div class="news__item">
-        <dt class="news__term">2017-8-20</dt>
+        <dt class="news__term">2017.8.20</dt>
         <dd class="news__data">WEB限定価格のお知らせ</dd>
       </div>
       <div class="news__item">
-        <dt class="news__term">2017-8-20</dt>
+        <dt class="news__term">2017.8.20</dt>
         <dd class="news__data">WEB限定価格のお知らせ</dd>
       </div>
     </dl>
